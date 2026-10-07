@@ -9,12 +9,12 @@
 
 ## Checklist
 
-- [] Успішна авторизація з валідними даними.
-- [] Відмова в авторизації з неправильним Username.
-- [] Відмова в авторизації з неправильним Password.
-- [] Перевірка порожнього Username.
-- [] Перевірка порожнього Password.
-- [] Відмова в авторизації заблокованого користувача.
+- Успішна авторизація з валідними даними.
+- Відмова в авторизації з неправильним Username.
+- Відмова в авторизації з неправильним Password.
+- Перевірка порожнього Username.
+- Перевірка порожнього Password.
+- Відмова в авторизації заблокованого користувача.
 
 ## TC-LOGIN-01 - Успішна авторизація standard_user
 
@@ -29,8 +29,8 @@
 - Password: secret_sauce
 
 ** Steps :**
-1. y пoлe Username ввести standard_user.
-2. y пoлe Password ввести secret_sauce.
+1. У пoлe Username ввести standard_user.
+2. У пoлe Password ввести secret_sauce.
 3. Натиснути кнопку Login.
 
 ** Expected Result :**
@@ -50,16 +50,16 @@ Pass
 ** Type :** Negative
 
 ** Preconditions :**
-- відкрита сторінка Login;
-- користувач не авторизований.
+- Відкрита сторінка Login;
+- Користувач не авторизований.
 
 ** Test Data :**
 - Username: unreal_user (або інший Username, що не входить до списку допустимих standard_user, locked_out_user, problem_user performance_glitch_user, error_user, visual_user)
 - Password: secret_sauce
 
 ** Steps :**
-1. y пoлe Username ввести unreal_user.
-2. y пoлe Password ввести secret_sauce.
+1. У пoлe Username ввести unreal_user.
+2. У пoлe Password ввести secret_sauce.
 3. Натиснути кнопку Login.
 
 ** Expected Result :**
@@ -79,16 +79,16 @@ Pass
 ** Type :** Negative
 
 ** Preconditions :**
-- відкрита сторінка Login;
-- користувач не авторизований.
+- Відкрита сторінка Login;
+- Користувач не авторизований.
 
 ** Test Data :**
 - Username: standart_user 
 - Password: secretsauce
 
 ** Steps :**
-1. y пoлe Username ввести standart_user.
-2. y пoлe Password ввести secretsauce.
+1. У пoлe Username ввести standart_user.
+2. У пoлe Password ввести secretsauce.
 3. Натиснути кнопку Login.
 
 ** Expected Result :**
@@ -108,8 +108,8 @@ Pass
 ** Type :** Negative
 
 ** Preconditions :**
-- відкрита сторінка Login;
-- користувач не авторизований.
+- Відкрита сторінка Login;
+- Користувач не авторизований.
 
 ** Test Data :**
 - Username: 
@@ -117,7 +117,7 @@ Pass
 
 ** Steps :**
 1. Пoлe Username залишити порожнім.
-2. y пoлe Password ввести secret_sauce.
+2. У пoлe Password ввести secret_sauce.
 3. Натиснути кнопку Login.
 
 ** Expected Result :**
@@ -137,8 +137,8 @@ Pass
 ** Type :** Negative
 
 ** Preconditions :**
-- відкрита сторінка Login;
-- користувач не авторизований.
+- Відкрита сторінка Login;
+- Користувач не авторизований.
 
 ** Test Data :**
 - Username: standart_user
@@ -166,16 +166,16 @@ Pass
 ** Type :** Negative
 
 ** Preconditions :**
-- відкрита сторінка Login;
-- користувач не авторизований.
+- Відкрита сторінка Login;
+- Користувач не авторизований.
 
 ** Test Data :**
 - Username: locked_out_user
 - Password: secret_sauce
 
 ** Steps :**
-1. y пoлe Username ввести locked_out_user.
-2. y пoлe Password ввести secret_sauce.
+1. У пoлe Username ввести locked_out_user.
+2. У пoлe Password ввести secret_sauce.
 3. Натиснути кнопку Login.
 
 ** Expected Result :**
